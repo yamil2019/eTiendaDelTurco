@@ -1,88 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>e-commerce.Turco</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-</head>
-<body>
-    <div id="sideNavigation" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">INICIO</a>
-        <a href="#">CATALOGO</a>
-        <a href="#">CONTACTO</a>
-        <a href="#">AYUDA</a>
-    </div>
-    <nav class="topnav">
-        <a href="#" onclick="openNav()">
-            <svg width="30" height="30" id="icoOpen">
-                <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-                <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-                <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-            </svg>
-        </a>
-        <div class="navTop">
-            <h1>E-COMMERCE 'TURCO'</h1>
-        </div>
-        <div class="botonera">
-            <button type="button" class="btn btn-primary">INICIO</button>
-            <button type="button" class="btn btn-secondary">CATALOGO</button>
-            <button type="button" class="btn btn-success">OTRO MENU</button>
-            <button type="button" class="btn btn-info">LOGIN</button>
-        </div>
-        <div class="logo">
-            <i class="fa fa-shopping-bag fa-spin fa-2x fa-fw" aria-hidden="false"></i>
-        </div>
-    </nav>
-       
-    <div id="main" style="background-image: url(imagenes/fondo2.jpg); height: 1400px;">
-          <!-- agregar contenido aca  -->
-        <div class="container-fluid">
-          
-        </div>
-        <div id="login">
-            <div class="cajaLogin">
-                  <a class="btn btn-danger" href="#">
-                      <i class="fa fa-trash-o fa-lg"></i> Eliminar</a>
-                    <a class="btn btn-default btn-sm" href="#">
-                      <i class="fa fa-cog"></i> Herramientas</a>
-                    
-                    <div class="btn-group">
-                          <a class="btn btn-default" href="#">
-                            <i class="fa fa-align-left" title="Align Left"></i>
-                          </a>
-                          <a class="btn btn-default" href="#">
-                            <i class="fa fa-align-center" title="Align Center"></i>
-                          </a>
-                          <a class="btn btn-default" href="#">
-                            <i class="fa fa-align-right" title="Align Right"></i>
-                          </a>
-                          <a class="btn btn-default" href="#">
-                            <i class="fa fa-align-justify" title="Align Justify"></i>
-                          </a>
-                    </div>
-                    <div class="input-group margin-bottom-sm">
-                          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-                          <input class="form-control" type="text" placeholder="Email address">
-                    </div>
-                    <div class="input-group">
-                          <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                          <input class="form-control" type="password" placeholder="Password">
-                    </div>
-                    <div class="btn-group open">
-                      <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> Usuario</a>
-                      <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/landingPage.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>e-commerce.Turco</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">INICIO</a>
+    <a href="#">CATALOGO</a>
+    <a href="#">CONTACTO</a>
+    <a href="#">AYUDA</a>
+  </div>
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+        <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+        <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+      </svg>
+    </a>
+    <div class="navTop">
+      <h1>E-COMMERCE 'TURCO'</h1>
+    </div>
+    <div class="botonera">
+      <button type="button" class="btn btn-primary">INICIO</button>
+      <button type="button" class="btn btn-secondary">CATALOGO</button>
+      <button type="button" class="btn btn-success">OTRO MENU</button>
+      <button type="button" class="btn btn-info">LOGIN</button>
+    </div>
+    <div class="logo">
+      <i class="fa fa-shopping-bag fa-spin fa-2x fa-fw" aria-hidden="false"></i>
+    </div>
+  </nav>
+
+  <div id="main" style="background-image: url(imagenes/fondo2.jpg); height: 1400px;">
+    <!-- agregar contenido aca  -->
+    <div class="container-fluid">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">Estudiante del mes!!!!</div>
+            <img src="imagenes/turco.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Turkish!</h5>
+              <p class="card-text">Entendió todo!.</p>
+              <a href="#" class="btn btn-primary">Dale una estrella</a>
+            </div>
+          </div>
+    </div>
+    <div id="login">
+      <div class="cajaLogin">
+        <a class="btn btn-danger" href="#">
+          <i class="fa fa-trash-o fa-lg"></i> Eliminar</a>
+        <a class="btn btn-default btn-sm" href="#">
+          <i class="fa fa-cog"></i> Herramientas</a>
+
+        <div class="btn-group">
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-left" title="Align Left"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-center" title="Align Center"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-right" title="Align Right"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-justify" title="Align Justify"></i>
+          </a>
+        </div>
+        <div class="input-group margin-bottom-sm">
+          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+          <input class="form-control" type="text" placeholder="Email address">
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+          <input class="form-control" type="password" placeholder="Password">
+        </div>
+        <div class="btn-group open">
+          <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> Usuario</a>
+          <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/landingPage.js"></script>
 </body>
+
 </html>
