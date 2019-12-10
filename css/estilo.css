@@ -78,6 +78,7 @@ body {
  
 .topnav .botonera{
    margin-top: 10px;
+   
   
 }
 
@@ -145,4 +146,13 @@ a svg{
     margin: 10% 35%;
     
 }
+
+#main #autos img {
+    margin: 2vh;
+    width: 250px;
+    max-width: 300px;
+    max-height: 200px;
+    
+}
+
 

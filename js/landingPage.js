@@ -21,10 +21,10 @@ $(document).ready(function(){
     });
 
 
-    $('button').mouseenter(function(){
-        $(this).animate({fontSize: '1.2rem'})
-    })
-    $('button').mouseleave(function(){
-        $(this).animate({fontSize: '1rem'})
-    })
+    //$('button').mouseenter(function(){
+    //    $(this).animate({fontSize: '1.2rem'})
+    //})
+    //$('button').mouseleave(function(){
+    //    $(this).animate({fontSize: '1rem'})
+    //})
 });
